@@ -7,8 +7,10 @@
     <title>Milicru pasteleria</title>
     <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
     <link rel="icon" href="./Carrito/img/Iconos/Logo.svg">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script defer src="stock.js"></script>
     <script defer src="modal.js"></script>
@@ -19,9 +21,9 @@
     <header>
         <nav>
                 <a class="navbar-brand" href="index.html"><img src="./Carrito/img/Iconos/Logo.png" alt="mi logo"></a>
+                <h1 id="titulo" class="titulo">Milicru Pasteleria</h1>
                 <button id="boton-carrito"><img src="./Carrito/img/Iconos/shopping-cart.png" alt="carrito"><span id="contadorCarrito">0</span></button>
         </nav>
-        <h1 id="titulo" class="titulo">Milicru Pasteleria</h1>
     </header>
 
     <select id="filtroTipo">
@@ -33,10 +35,11 @@
     </select>
 
 
-    <main id="contenedor-productos">
-
+    <main> 
+        <h2>Nuestros productos</h2>
     </main>
 
+    <div id="contenedor-productos">
     <div class="modal-contenedor">
         <div class="modal-carrito">
             <h3>Carrito</h3>
