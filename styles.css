@@ -52,6 +52,7 @@ img {
     font-size: 20px;
     background-color: transparent;
     border: none;
+    list-style: none;
 }
 #boton-carrito img{
     width: 52px;
@@ -61,6 +62,7 @@ img {
 #boton-carrito #contadorCarrito{
     color:  #B97583;
     margin-left: 27px;
+    list-style: none;
 }
 
 #boton-carrito #contadorCarrito:hover{
