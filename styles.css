@@ -8,44 +8,51 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
+
 img {
     width: 100%;
     margin-bottom: 10px;
 }
-header nav{
+
+header{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
     padding: 10px 10%;
+    width: 100%;
 }
 
-header nav h1 {
-    color: #B97583;
-    font-size: 30px;
-    text-align: center;
+.navbar-brand{
+    justify-content: flex-start;
+}
+
+.navbar-nav li{
+    color:#B97583
 }
 
 #boton-carrito {
-    width: 5%;
+    width: 20%;
     font-size: 20px;
     background-color: transparent;
     border: none;
 }
+
 #boton-carrito #contadorCarrito{
     color:  #B97583;
 }
+
 #boton-carrito #contadorCarrito:hover{
     color: #B97583;
     font-weight: 700;
     text-decoration: overline;
+    cursor: pointer;
 }
 
 main h2{
     font-family:'Playfair Display', serif ;
     text-align: center;
     font-size: 40px;
-    color: blueviolet;
 }
+
 #contenedor-productos {
     max-width: 1200px;
     margin: 60px auto;
