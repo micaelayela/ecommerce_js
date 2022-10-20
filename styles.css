@@ -3,12 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* comun a todas las paginas */
 body{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
-
 img {
     width: 100%;
     margin-bottom: 10px;
@@ -17,7 +16,6 @@ img {
     width: 82px;
     height: 72px;
     margin-top: 1px;
-
 }
 
 .navbar-collapse {
@@ -32,7 +30,6 @@ img {
     list-style: none;
     height: fit-content;
 }
-
 .nav-item a {
         color: black;
         font-size: 16px;
@@ -43,16 +40,55 @@ img {
     color: #B97583;
     text-decoration: overline;
 }
+/* home */
+.main-home{
+    background-color: #E7B3BB;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.sobre-me-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+    width: fit-content;
+}
+.sobre-me-home img{
+    width: 30%;
+    display: flex;
+    margin-left: 10%;
+}
+.textohome{
+    width: fit-content;
+    padding: 10%;
+}
+.textohome h2{
+    color: #B97583;
+    text-align: center;
+}
+.textohome .p1-home{
+    margin-top: 5%;
+}
+.textohome .p2-home{
+    text-align: right;
+    font-family: 'Satisfy', cursive;
+    color: #E7B3BB;
+    font-size: 16px;
+}
+
+/* shop */
+
 .botoncarrito{
     display: flex;
     flex-direction: column;
 }
 #boton-carrito {
-    width: 5%;
+    width: 24%;
     font-size: 20px;
     background-color: transparent;
     border: none;
-    list-style: none;
 }
 #boton-carrito img{
     width: 52px;
@@ -61,7 +97,7 @@ img {
 }
 #boton-carrito #contadorCarrito{
     color:  #B97583;
-    margin-left: 27px;
+    margin-left: 15px;
     list-style: none;
 }
 
@@ -75,7 +111,20 @@ img {
 main h2{
     font-family:'Playfair Display', serif ;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
+    margin-bottom: 5%;
+    color: #B97583;
+    
+}
+
+.seccion-productos h2{
+    text-align: center;
+    margin: 5%;
+    font-family:'Playfair Display', serif;
+    color: #B97583;
+}
+.seccion-productos p{
+    text-align: center;
 }
 
 #contenedor-productos {
@@ -187,7 +236,7 @@ p {
 
 .boton-eliminar {
     background-color: white;
-    color: red;
+    color: #B97583;
     border: none;
     font-size: 20px;
 }
