@@ -5,7 +5,8 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
 }
 img {
     width: 100%;
@@ -43,6 +44,7 @@ main h2{
     font-family:'Playfair Display', serif ;
     text-align: center;
     font-size: 40px;
+    color: blueviolet;
 }
 #contenedor-productos {
     max-width: 1200px;
