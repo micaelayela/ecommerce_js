@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     botonVaciar.addEventListener('click', () => {
         Swal.fire({
             title: 'Estas seguro de vaciar el carrito?',
-            text: "No vas a poder revertir esto!",
+            text: "No vas a poder revertir esto :( ",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#e7B3BB',
