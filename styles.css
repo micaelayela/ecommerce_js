@@ -247,3 +247,24 @@ p {
 .boton-eliminar:focus {
     outline: none;
 }
+
+/* contacto */
+
+
+
+main h1{
+        text-align: center;
+        color: #E7B3BB;
+        font-weight: 800px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+    margin: 20px;
+}
+
+form input{
+    margin: 20px;
+}
